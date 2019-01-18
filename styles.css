@@ -47,4 +47,10 @@ table {
     border-width: 1px;
     border-radius: 3%;
 }
+
+.left {
+    text-align: left;
+}
+
+
 /* this is a commment */
