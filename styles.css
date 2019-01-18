@@ -1,7 +1,13 @@
 /* Adding formating to the h1 */
+body {
+    background-color: aqua;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
     color: red;
-    font-size: 90px;
+    font-size: 32px;
 }
 
 p {
@@ -30,6 +36,15 @@ p a img {
 }
 
 p.tacos.pizza  {
-    color: yellow;
+    color: blueviolet;
+}
+
+table {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-color: darkblue;
+    border-style: dotted;
+    border-width: 1px;
+    border-radius: 3%;
 }
 /* this is a commment */
