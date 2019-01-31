@@ -21,3 +21,30 @@ a.navbar-brand img {
     height: 80px;
     width: 80px;
 }
+
+.colorado  {
+    background-image: url(colorado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    padding-top: 20px;
+}
+
+.patiobellavista  {
+    background-image: url(patiobellavista.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    padding-top: 20px;
+}
+
+.vineyard {
+    background-image: url(vineyard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    padding-top: 20px;
+}
