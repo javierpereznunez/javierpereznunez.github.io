@@ -1,7 +1,6 @@
 body {
-    background-color:lightgray;
+    background-color: whitesmoke;
     font-size: 16px;
-    padding: 30px;
 }
 
 img {
@@ -9,7 +8,13 @@ img {
 }
 
 .carousel-item {
-    height: 700px;
+    max-height: 700px;
+    overflow: hidden;
+    
+    .item img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 a.navbar-brand img {
@@ -18,33 +23,29 @@ a.navbar-brand img {
 
 .endpage {
     color: lightgrey;
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
+}
+
+.jumbotron {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding-top: 20px;
+    font: bolder;
 }
 
 .colorado  {
     background-image: url(colorado.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 700px;
-    padding-top: 20px;
 }
 
 .patiobellavista  {
     background-image: url(patiobellavista.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 700px;
-    padding-top: 20px;
+    color: antiquewhite;
 }
 
 .vineyard {
     background-image: url(vineyard.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 700px;
-    padding-top: 20px;
+    color: lightgray;
 }
